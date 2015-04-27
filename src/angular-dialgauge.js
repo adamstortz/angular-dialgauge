@@ -343,7 +343,7 @@ angular.module('angular-dialgauge', [
                     }
 
                     if (cfg.title) {
-                        path += '<text text-anchor="middle" x="' + center + '" y="' + (center + 20) +
+                        path += '<text text-anchor="middle" x="' + center + '" y="' + (center + 50) +
                         '" class="dialgauge-title">' + cfg.title + '</text>';
                     }
 
@@ -533,4 +533,3 @@ angular.module('angular-dialgauge', [
         };
     })
 ;
-
