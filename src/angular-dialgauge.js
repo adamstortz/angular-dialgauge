@@ -343,7 +343,7 @@ angular.module('angular-dialgauge', [
                     }
 
                     if (cfg.title) {
-                        path += '<text text-anchor="middle" x="' + center + '" y="' + (center + 50) +
+                        path += '<text text-anchor="middle" x="' + center + '" y="' + (center + 70) +
                         '" class="dialgauge-title">' + cfg.title + '</text>';
                     }
 
@@ -470,7 +470,6 @@ angular.module('angular-dialgauge', [
                     }
 
                     for (var key in defaults) {
-                        console.log("Checking ", key);
 
                         if (cfgObject[key] !== undefined) {
                             cfg[key] = cfgObject[key];
